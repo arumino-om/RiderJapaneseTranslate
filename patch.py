@@ -13,6 +13,9 @@ def main():
         print("usage: patch.py <path/to/target.zip>")
         return
 
+    if not os.path.exists("tmp/"):
+        os.makedirs("tmp/")
+        
     print("Getting lib jar from '{0}' ...".format(sys.argv[1]))
     jar_path = get_lib_jar(sys.argv[1])
     print("Patching into lib jar...")
