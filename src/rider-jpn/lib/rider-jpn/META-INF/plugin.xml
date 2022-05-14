@@ -1,0 +1,15 @@
+<idea-plugin>
+ <id>ml.arumino-om.rider-jpn</id>
+ <version>1</version>
+ <idea-version since-build="221" until-build="RD-221.*"/>
+ <name>Rider Japanese Language Pack / Rider 日本語言語パック</name>
+ <vendor>Arumino</vendor>
+ <description><![CDATA[Riderを日本語化する非公式言語パックです。]]></description>
+ <change-notes><![CDATA[なし]]></change-notes>
+ <depends>com.intellij.modules.platform</depends>
+ <!-- <incompatible-with>com.intellij.modules.rider</incompatible-with> -->
+ <locale>ja</locale>
+ <extensions defaultExtensionNs="com.intellij">
+   <languageBundle locale="ja"/>
+ </extensions>
+</idea-plugin>
