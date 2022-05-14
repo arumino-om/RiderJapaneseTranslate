@@ -1,0 +1,8 @@
+.idea
+/diffs
+/utils
+/venv
+*.zip
+*.jar
+
+rider-jpn.zip
